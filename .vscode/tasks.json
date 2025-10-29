@@ -1,0 +1,15 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Clean __pycache__",
+      "type": "shell",
+      "command": "find . -type d -name '__pycache__' -exec rm -rf {} +",
+      "problemMatcher": [],
+      "group": {
+        "kind": "none",
+        "isDefault": true
+      }
+    }
+  ]
+}
